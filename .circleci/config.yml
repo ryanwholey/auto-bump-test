@@ -13,11 +13,10 @@ workflows:
   version: 2
   test_and_publish:
     jobs:
-      - build_test:
-          context: build
+      - test
       - publish:
           requires:
-            - publish
+            - test
           filters:
             branches:
               only: master
