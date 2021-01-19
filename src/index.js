@@ -4,5 +4,4 @@ module.exports = {
   moo: 'bock',
   woof: 'meow',
   tweet: 'roar',
-  woot: 'woot'
 }
