@@ -1,0 +1,23 @@
+version: 2
+jobs:
+  test:
+    steps:
+      - checkout
+      - run: npm install
+      - run: npm test
+  publish:
+    steps:
+      - checkout
+      - run: echo publish 
+workflows:
+  version: 2
+  test_and_publish:
+    jobs:
+      - build_test:
+          context: build
+      - publish:
+          requires:
+            - publish
+          filters:
+            branches:
+              only: master
