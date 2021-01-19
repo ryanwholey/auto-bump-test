@@ -15,3 +15,4 @@ jobs:
       uses: ryanwholey/conventional-changelog-action@rw-fix-uncaught-error
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
+
