@@ -18,11 +18,11 @@ workflows:
   test_and_publish:
     jobs:
       - test:
-        filters:
-          tags:
-            only: /^v.*/
-          branches:
-            only: /.*/
+          filters:
+            tags:
+              only: /^v.*/
+            branches:
+              only: /.*/
       - publish:
           requires:
             - test
