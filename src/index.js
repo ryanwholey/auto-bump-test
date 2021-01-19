@@ -6,4 +6,5 @@ module.exports = {
   tweet: 'roar',
   another: 'one',
   two: 'release',
+  another: 'trigger',
 }
