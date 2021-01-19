@@ -2,5 +2,6 @@
 
 module.exports = {
   moo: 'bock',
-  woof: 'meow'
+  woof: 'meow',
+  tweet: 'roar'
 }
