@@ -5,4 +5,5 @@ module.exports = {
   woof: 'meow',
   tweet: 'roar',
   foo: 'bar',
+  bar: 'baz',
 }
