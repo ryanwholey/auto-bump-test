@@ -7,15 +7,15 @@ jobs:
       - checkout
       - run: npm install
       - run: npm test
-  publish:
+  release:
     docker:
       - image: cimg/node:15.6
     steps:
       - checkout
-      - run: echo publish 
+      - run: echo release
 workflows:
   version: 2
-  test_and_publish:
+  test_and_release:
     jobs:
       - test:
           filters:
