@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/ryanwholey/auto-bump-test/compare/v1.2.0...v1.3.0) (2021-01-19)
+
+
+### Features
+
+* remove old features ([#14](https://github.com/ryanwholey/auto-bump-test/issues/14)) ([f25f750](https://github.com/ryanwholey/auto-bump-test/commit/f25f750ccc76c70181a51da048291587267b79f2))
+
+
+
 # [1.2.0](https://github.com/ryanwholey/auto-bump-test/compare/v1.1.0...v1.2.0) (2021-01-19)
 
 
