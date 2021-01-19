@@ -1,3 +1,12 @@
+# [1.4.0](https://github.com/ryanwholey/auto-bump-test/compare/v1.3.0...v1.4.0) (2021-01-19)
+
+
+### Features
+
+* new feature ([#15](https://github.com/ryanwholey/auto-bump-test/issues/15)) ([ab7670b](https://github.com/ryanwholey/auto-bump-test/commit/ab7670be22c4bdb86619c8d89c29c0dd4a34a678))
+
+
+
 # [1.3.0](https://github.com/ryanwholey/auto-bump-test/compare/v1.2.0...v1.3.0) (2021-01-19)
 
 
