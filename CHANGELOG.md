@@ -1,3 +1,12 @@
+## [1.4.1](https://github.com/ryanwholey/auto-bump-test/compare/v1.4.0...v1.4.1) (2021-01-19)
+
+
+### Bug Fixes
+
+* remove erroneous feature ([#17](https://github.com/ryanwholey/auto-bump-test/issues/17)) ([3a2d238](https://github.com/ryanwholey/auto-bump-test/commit/3a2d23863f9615bf4183dda9bbb9d99da2b31af7))
+
+
+
 # [1.4.0](https://github.com/ryanwholey/auto-bump-test/compare/v1.3.0...v1.4.0) (2021-01-19)
 
 
