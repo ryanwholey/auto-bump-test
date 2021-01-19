@@ -1,11 +1,15 @@
 version: 2
 jobs:
   test:
+    docker:
+      - image: cimg/node:15.6
     steps:
       - checkout
       - run: npm install
       - run: npm test
   publish:
+    docker:
+      - image: cimg/node:15.6
     steps:
       - checkout
       - run: echo publish 
@@ -13,11 +17,12 @@ workflows:
   version: 2
   test_and_publish:
     jobs:
-      - build_test:
-          context: build
+      - test
       - publish:
           requires:
-            - publish
+            - test
           filters:
+            tags:
+              only: /^v.*/
             branches:
-              only: master
+              ignore: /.*/
