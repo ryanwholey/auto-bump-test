@@ -3,5 +3,6 @@
 module.exports = {
   foo: 'bar',
   baz: 'woz',
-  moo: 'bock'
+  moo: 'bock',
+  woof: 'meow'
 }
