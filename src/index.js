@@ -3,5 +3,6 @@
 module.exports = {
   moo: 'bock',
   woof: 'meow',
-  tweet: 'roar'
+  tweet: 'roar',
+  woot: 'woot'
 }
