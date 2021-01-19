@@ -22,5 +22,7 @@ workflows:
           requires:
             - test
           filters:
+            tags:
+              only: /^v.*/
             branches:
-              only: master
+              ignore: /.*/
