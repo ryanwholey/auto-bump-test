@@ -1,3 +1,12 @@
+# [1.5.0](https://github.com/ryanwholey/auto-bump-test/compare/v1.4.1...v1.5.0) (2021-01-19)
+
+
+### Features
+
+* add new feature ([#18](https://github.com/ryanwholey/auto-bump-test/issues/18)) ([e39f0f1](https://github.com/ryanwholey/auto-bump-test/commit/e39f0f1279a907d636a12556938470c0646d2cf7))
+
+
+
 ## [1.4.1](https://github.com/ryanwholey/auto-bump-test/compare/v1.4.0...v1.4.1) (2021-01-19)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * new feature ([#12](https://github.com/ryanwholey/auto-bump-test/issues/12)) ([8e4fac2](https://github.com/ryanwholey/auto-bump-test/commit/8e4fac29d17db00b0a9846ee08091ee892a38c73))
-
-
-
-# [1.1.0](https://github.com/ryanwholey/auto-bump-test/compare/61a78d78b7054ea17bd11005360cefc0b016c5be...v1.1.0) (2021-01-19)
-
-
-### Features
-
-* **ci:** Update commit lint ([61a78d7](https://github.com/ryanwholey/auto-bump-test/commit/61a78d78b7054ea17bd11005360cefc0b016c5be))
 
 
 
