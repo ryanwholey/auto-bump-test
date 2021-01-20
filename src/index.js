@@ -7,4 +7,5 @@ module.exports = {
   another: 'one',
   two: 'release',
   another: 'trigger',
+  four: 'four',
 }
